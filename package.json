@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Learning resources for the webpack academy workshop series for 2018",
   "main": "index.js",
-  "scripts": {
-    "webpack": "webpack"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheLarkInn/webpack-workshop-2018.git"
+  },
+  "scripts": {
+    "webpack": "webpack",
+    "dev": "npm run webpack -- --mode development",
+    "prod": "npm run webpack -- --mode production"
   },
   "keywords": [],
   "author": "",
